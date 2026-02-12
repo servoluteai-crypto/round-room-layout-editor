@@ -19,11 +19,17 @@
       "Bash(lsof:*)",
       "Bash(xargs kill:*)",
       "Bash(npx next build:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:github.com)",
+      "mcp__supabase__search_docs",
+      "mcp__supabase__get_project_url",
+      "mcp__supabase__get_publishable_keys",
+      "mcp__supabase__list_tables"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "supabase"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
