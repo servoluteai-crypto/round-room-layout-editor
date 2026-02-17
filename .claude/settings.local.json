@@ -27,7 +27,8 @@
       "mcp__supabase__get_publishable_keys",
       "mcp__supabase__list_tables",
       "Bash(git check-ignore:*)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(npx tsc:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
