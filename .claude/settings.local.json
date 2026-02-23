@@ -28,7 +28,8 @@
       "mcp__supabase__list_tables",
       "Bash(git check-ignore:*)",
       "Bash(node -e:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(git checkout:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
