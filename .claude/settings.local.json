@@ -29,7 +29,17 @@
       "Bash(git check-ignore:*)",
       "Bash(node -e:*)",
       "Bash(npx tsc:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)",
+      "Bash(git pull:*)",
+      "Bash(npx typescript:*)",
+      "Bash(npm search:*)",
+      "Bash(git -C /Users/lawrence/Documents/Developments-LH/Round-room-layout-editor/roundroom-floorplanner log --oneline -3)",
+      "Bash(git -C /Users/lawrence/Documents/Developments-LH/Round-room-layout-editor/roundroom-floorplanner add src/components/InfoPanel/CapacityCalculator.tsx src/lib/constraints.ts)",
+      "Bash(git -C:*)",
+      "Skill(claude-developer-platform)",
+      "Skill(claude-developer-platform:*)",
+      "Bash(claude mcp:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
