@@ -8,7 +8,8 @@ This is a **git repository with a submodule**. All active development happens in
 Round-room-layout-editor/          ← You are here (root repo)
 ├── roundroom-floorplanner/        ← Main Next.js app (git submodule)
 │   ├── src/                       ← All source code lives here
-│   ├── CLAUDE.md                  ← Detailed dev guide (read this for the app)
+│   ├── docs/                      ← Architecture, features, changelog, status
+│   ├── CLAUDE.md                  ← Dev essentials (SSR, workflow, quick ref)
 │   └── package.json
 ├── .mcp.json                      ← MCP server config (Supabase)
 └── package.json                   ← Root deps (minimal, not the app)
@@ -90,7 +91,8 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=<your key>
 
 | File | Purpose |
 |------|---------|
-| `roundroom-floorplanner/CLAUDE.md` | Full dev guide — read before coding |
+| `roundroom-floorplanner/CLAUDE.md` | Dev essentials (SSR, workflow, quick ref) |
+| `roundroom-floorplanner/docs/` | Architecture, features, changelog, project status |
 | `roundroom-floorplanner/src/lib/store.ts` | Zustand state (1048 lines, single source of truth) |
 | `roundroom-floorplanner/src/types/index.ts` | All TypeScript interfaces + constants |
 | `roundroom-floorplanner/src/lib/scenarios.ts` | 9 built-in preset layouts |
